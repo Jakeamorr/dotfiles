@@ -35,6 +35,21 @@ highlight StatusLineNC ctermfg=7    ctermbg=8    cterm=NONE
 highlight VertSplit    ctermfg=7    ctermbg=8    cterm=NONE
 highlight SignColumn                ctermbg=8
 
+" Vim color settings
+highlight vimString    ctermfg=9
+highlight vimCommand   ctermfg=5
+highlight vimOption    ctermfg=2
+
+" Javascript color settings
+highlight javascriptReserved       ctermfg=5
+highlight javascriptGlobal         ctermfg=5
+highlight javascriptOperator       ctermfg=5
+highlight javascriptRepeat         ctermfg=5
+highlight javascriptConditional    ctermfg=5
+highlight javascriptStringS        ctermfg=9
+highlight javascriptBoolean        ctermfg=12
+
+" FzF color settings
 highlight link DimFzfFg     Normal
 highlight link DimFzfBg     Normal
 highlight link DimFzfFgPlus PmenuSel
