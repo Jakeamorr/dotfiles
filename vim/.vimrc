@@ -17,7 +17,12 @@ set scrolloff=10        " Determines when the window should shift up/down
 
 " remaps
 inoremap jk <esc>
-" determine syntax id for coloring purposes
+
+" Disable expandtab for Makefiles
+" Makefiles require tabs characters to parse recipes
+autocmd FileType make set noexpandtab
+
+" Simple function to determine syntax id for coloring purposes
 nmap <C-S-N> :call <SID>SynStack()<CR>
 function! <SID>SynStack()
     if !exists("*synstack")
