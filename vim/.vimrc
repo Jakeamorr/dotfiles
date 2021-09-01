@@ -5,8 +5,8 @@ colorscheme dim
 " settings
 set nu rnu              " Set hybrid numbering
 
-set tabstop=4           " Replace tabs with 4 spaces
-set expandtab
+set expandtab           " Replace tabs with spaces
+set tabstop=4           " Ensure tabing will be 4 spaces
 set shiftwidth=4        " Ensure shifting will also use 4 spaces
 
 set colorcolumn=80
