@@ -69,3 +69,6 @@ compinit
 autoload edit-command-line; zle -N edit-command-line
 # bindkey '^e' edit-command-line
 
+# oh-my-posh theme
+eval "$(oh-my-posh --init --shell zsh --config ~/.poshthemes/jblab_2021.omp.json)"
+
