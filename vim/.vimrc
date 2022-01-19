@@ -2,8 +2,9 @@ syntax on               " turn syntax highlighting on
 colorscheme gruv        " custom colorscheme
 
 " settings
-set tabstop=4           " Replace tabs with 4 spaces
-set expandtab
+set nu rnu              " Set hybrid numbering
+set expandtab           " Replace tabs with spaces
+set tabstop=4           " Ensure tabing will be 4 spaces
 set shiftwidth=4        " Ensure shifting will also use 4 spaces
 
 set splitbelow          " Horizontal splits open on the bottom
