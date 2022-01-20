@@ -25,7 +25,7 @@ inoremap jk <esc>
 nnoremap ; :
 nnoremap <silent><expr> <Leader>h (&hls && v:hlsearch ? ':nohls' : ':set hls')."\n"
 nnoremap <leader>e :Lexplore<CR>
-nnoremap <leader>t :term zsh<CR>
+nnoremap <leader>t :term bash<CR>
 
 " newtr mappings
 function! NetrwMapping()
