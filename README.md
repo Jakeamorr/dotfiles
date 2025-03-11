@@ -3,4 +3,4 @@
 * cd ~
 * git clone `git@github.com:Jakeamorr/dot-files.git`
 * cd dot-files
-* stow zsh vim
+* stow zsh tmux
